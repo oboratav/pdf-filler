@@ -7,6 +7,7 @@ require 'markdown'
 require 'liquid'
 require File.dirname(__FILE__) + "/lib/pdf_filler.rb"
 
+set :bind, '0.0.0.0'
 set :root, File.dirname(__FILE__)
 set :views, File.dirname(__FILE__) + "/views"
 
