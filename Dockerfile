@@ -16,4 +16,6 @@ WORKDIR ${APP_PATH}/pdf-filler
 
 RUN bundle install
 
+EXPOSE 4567/tcp
+
 ENTRYPOINT [ "ruby", "app.rb" ]
